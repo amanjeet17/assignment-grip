@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  background-color: beige;
+}
+input{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+}
+
+.chips{
+  display: flex;
+}
+
+.close{
+  cursor: pointer;
+}
+
+.chip{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  border:0.5px solid #ddd;
+  border-radius: 25px;
+  padding: 0 10px;
+}
+
+.element{
+  padding-right:10px;
+}
